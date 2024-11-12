@@ -4,6 +4,4 @@ Quem a resolver terá direito a um produto de sua escolha da loja totalmete grat
 
 Converse com meu funcionário Luan para entender mais (acesse a Branch de Luan).
 
-*Leia o código atentamente*
-
-*Verifique linha por linha*
+Converse com meu funcionário Pedro para ter algumas dicas (acesse a Branch de Pedro).
