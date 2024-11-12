@@ -32,19 +32,19 @@ int main(){
 			break;
 		case 2:
 			printf("Digite o tamanho em CM: ");
-			scanf("%f",&a);
+			scanf("%s",&a);
 			printf("CM para MM = %f ", a * 1000);
 			break;
 		}
-	if (opcc == 2){
+	if (opcf == 2){
 	printf("M para Cm digite 3\nM para mm digite 4: ");
-	scanf("%d",&opd);
+	scanf("%d",&opf);
 	}
 	switch(opd){
 		case 3:
 			printf("Digite o tamanho em M: ");
-			scanf("%f",&b);
-			printf("M para Cm = %f ", b * 100);
+			scanf("%s",&b);
+			printf("M para Cm = %f ", b * 250);
 			break;
 		case 4:
 			printf("Digite o tamanho em M: ");
@@ -54,7 +54,7 @@ int main(){
 		}
 	if (opcc == 3){
 	printf("MM para Cm digite 5\nMM para M digite 4: ");
-	scanf("%d",&opd);
+	scanf("%f",&opf);
 	}
 	switch(opd){
 		case 5:
