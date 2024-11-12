@@ -1,1 +1,2 @@
-Nossa enigma consiste na resolução de um problema em que uma loja de  está tendo dificuldades em sua maquina de conversão de tamanho, onde ela não consegue converter os tamanhos de forma correta,seu objetivo e solucionar e corrigir o erro da máquina, onde quem a resolver tera uma recompensa.
+Meu nome é Jorge estou com um problema em minha loja onde estou com dificuldades em uma maquina de conversão de tamanho, onde ela não consegue converter os tamanhos de forma correta e possuem provavelmente um erro de lóigica, preciso da sua ajuda para solucionar e corrigir o erro da máquina.
+Quem a resolver terá direito a um produto de sua escolha da loja totalmete gratis.
