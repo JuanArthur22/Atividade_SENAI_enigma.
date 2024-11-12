@@ -1,0 +1,73 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+int main(){
+	float a, b, c;
+	int op;
+	int opc, opcc, opd;
+	setlocale(LC_ALL,"Portuguese");
+	printf("Olá bem vindo ao convertor de tamanho\n");
+	printf("Caso possuir erro verifique o código\n");
+	do{
+	printf("\nDeseja realizar a operacao ? (Digite 7 para sim ou 8 para não):  ");
+	scanf("%d",&opc);
+	if (opc == 7)
+	{
+	printf("Deseja converter qual tamanho? CM '1', M '2', MM ' 3': ");
+	scanf("%d",&opcc);
+	}
+	if (opc == 8){
+		printf("VocÊ optou por sair!");
+		break;
+	}
+	if (opcc == 1){
+	printf("Cm para M digite 1\nCm para mm digite 2: ");
+	scanf("%d",&opd);
+	}
+	switch(opd){
+		case 1:
+			printf("Digite o tamanho em CM: ");
+			scanf("%f",&a);
+			printf("CM para M = %f ", a * 100);
+			break;
+		case 2:
+			printf("Digite o tamanho em CM: ");
+			scanf("%f",&a);
+			printf("CM para MM = %f ", a * 1000);
+			break;
+		}
+	if (opcc == 2){
+	printf("M para Cm digite 3\nM para mm digite 4: ");
+	scanf("%d",&opd);
+	}
+	switch(opd){
+		case 3:
+			printf("Digite o tamanho em M: ");
+			scanf("%f",&b);
+			printf("M para Cm = %f ", b * 100);
+			break;
+		case 4:
+			printf("Digite o tamanho em M: ");
+			scanf("%f",&b);
+			printf("M para MM = %f ", b / 1000);
+			break;
+		}
+	if (opcc == 3){
+	printf("MM para Cm digite 5\nMM para M digite 4: ");
+	scanf("%d",&opd);
+	}
+	switch(opd){
+		case 5:
+			printf("Digite o tamanho em MM: ");
+			scanf("%f",&c);
+			printf("MM para Cm = %f ", c / 10);
+			break;
+		case 6:
+			printf("Digite o tamanho em MM: ");
+			scanf("%f",&c);
+			printf("MM para M = %f ", c * 1000);
+			break;
+		}
+	}
+	while(opc != 6);
+}
